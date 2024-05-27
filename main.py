@@ -29,3 +29,11 @@ time.sleep(1)
 
 currentMouseX, currentMouseY = 865, 610
 pyautogui.click(currentMouseX, currentMouseY)
+
+#Visual Studio Code
+pyautogui.press('win')
+time.sleep(1)
+pyautogui.write('Visual Studio Code', interval=0.24)
+pyautogui.press('enter')
+time.sleep(1)
+pyautogui.alert('Programas abertos e script finalizado com sucesso!')
