@@ -25,7 +25,7 @@ pyautogui.press('win')
 time.sleep(1)
 pyautogui.write('Google Chrome', interval=0.24)
 pyautogui.press('enter')
-time.sleep(1)
+time.sleep(3)
 
 currentMouseX, currentMouseY = 865, 610
 pyautogui.click(currentMouseX, currentMouseY)
